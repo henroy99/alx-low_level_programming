@@ -1,8 +1,8 @@
  #include <stdio.h>
 /**
- * main – Entry point
+ * main - Prints the alphabet.
  *
- * Return: Always 0 (Success/correct)
+ * Return: Always 0 (Success)
  */
 int main(void)
 
@@ -11,12 +11,9 @@ int main(void)
  int i;
 
 for (i = 0; i < 26; i++)
- {
+{
   putchar(alp[i]);
- }
-
+}
  putchar('\n');
-
  return (0);
-
 }
