@@ -25,5 +25,3 @@ _putchar('\n');
 
 
 }
-git add .
-git commit -m "My commit on the 2nd task"
